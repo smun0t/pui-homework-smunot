@@ -1,0 +1,122 @@
+* {
+    text-align: center;
+    font-family:Arial, Helvetica, sans-serif;
+}
+
+header{
+    text-align: left;
+}
+
+.underlined-text {
+    text-decoration: underline;
+}
+
+.underlined-text:hover {
+    font-weight: bold;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+img {
+    border: 3px solid black;
+}
+
+#logo {
+    border: 0px;
+}
+.products:hover{
+    display: inline-block;
+    background-color: yellow
+}
+
+
+.cart:hover{
+    display: inline-block;
+    background-color: yellow
+}
+
+
+div {
+    font-size: 110%;
+    margin-top: 1px;
+}
+
+h1 {
+    font-size: 133%;
+    margin-top: 1px;
+    font-weight: 100;
+}
+
+.remove{
+    font-weight: bold;
+    text-decoration: underline;
+}
+
+
+hr{
+    height: 4px;
+    background: black;
+}
+
+.button {
+    font-size: 84%;
+    font-weight: bold;
+    display: inline-block;
+    border: 1px solid black;
+    padding: 16px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    background-color:yellow;
+}
+
+.button {
+    font-size: 84%;
+    font-weight: bold;
+    display: inline-block;
+    border: 1px solid black;
+    padding: 16px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    background-color:yellow;
+}
+
+.page-description {
+   font-size:130%;
+   margin: 50px 0;
+}
+
+​.detail-box{
+    text-align:center;
+    font-size: 100%;
+}
+
+.detail-button {
+    margin-top: 15px;
+    font-size: 100%;
+}
+
+.detail-box > .detail-button {
+    display: inline-block; 
+    vertical-align:center;
+}
+
+#product-container {
+    display: inline-block; 
+}
+
+#product-container:hover {
+    display: inline-block; 
+    background-color: yellow
+}
+
+#product-container > p {
+    text-align: left;
+}
+
+#product-image {
+    display: block; /* Make the image a block element */
+    margin: 0 auto; /* Center the block element (image) within its container */
+}
