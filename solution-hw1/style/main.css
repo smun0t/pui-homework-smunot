@@ -32,8 +32,18 @@ img {
     background-color: yellow
 }
 
+#products-active{
+    display: inline-block;
+    background-color: yellow
+}
 
 .cart:hover{
+    display: inline-block;
+    background-color: yellow
+}
+
+
+#cart-active{
     display: inline-block;
     background-color: yellow
 }
