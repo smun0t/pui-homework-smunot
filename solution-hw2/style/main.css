@@ -4,7 +4,6 @@
 
 /*header*/
 
-
 header{
     display: flex;
 }
@@ -52,6 +51,32 @@ hr{
     border: 0px;
 }
 
+/*index page*/
+
+
+.all-items{
+    text-align:center;
+}
+
+
+#product-container {
+    display: inline-block; 
+    padding: 8px;
+}
+
+#product-container:hover {
+    display: inline-block; 
+    background-color: yellow
+}
+
+#product-container > p {
+    text-align: left;
+}
+
+#product-image {
+    display: block; 
+    margin: 0 auto; 
+}
 
 .underlined-text {
     text-decoration: underline;
@@ -184,31 +209,6 @@ h1 {
     vertical-align:center;
 }
 
-
-
-.all-items{
-    text-align:center;
-}
-
-
-#product-container {
-    display: inline-block; 
-    padding: 8px;
-}
-
-#product-container:hover {
-    display: inline-block; 
-    background-color: yellow
-}
-
-#product-container > p {
-    text-align: left;
-}
-
-#product-image {
-    display: block; /* Make the image a block element */
-    margin: 0 auto; /* Center the block element (image) within its container */
-}
 
 .details-container{
     display:flex;
