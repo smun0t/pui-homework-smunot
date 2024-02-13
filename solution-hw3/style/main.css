@@ -209,6 +209,7 @@ img {
     background-color:yellow;
     padding-top: 10px;
     padding-bottom: 10px;
+    margin-left: 10px;
 }
 
 /*detail page*/
@@ -260,5 +261,10 @@ img {
 
 #details-price{
     font-weight: bold;
+}
+
+.detail-button-1 {
+    display: inline-block;
+    width: 50px;
 }
 
