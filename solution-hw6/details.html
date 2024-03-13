@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Product Detail - Bun Bun Bake Shop</title>
+  <link rel="stylesheet" href="style/main.css">
+</head>
+<body>
+
+<header>
+    <div class="logo">
+        <div class="logo-image">
+            <a href="index.html">
+                <img src="../assets/logo/logo-01.svg" 
+                alt="Logo" width="400px" id="logo-img">
+            </a>
+        </div>
+    </div>
+
+    <div class="links">
+        <h1 id="nav" class="link">
+
+            <div class="products">
+                <h1><a href="index.html" id="products-active">PRODUCTS</a></h1>
+            </div>
+
+            <div class="cart">
+                <h1><a href="cart.html">CART</a></h1>
+            </div>
+
+            <span class="notification"> 0 </span> 
+
+        </h1>
+        <hr>
+        <h1 id= "page-description">Cinnamon Roll</h1>
+    </div>
+</header>
+
+<br>
+
+<div class="details-container">
+    <div class="details-img">
+        <img src="../assets/products/original-cinnamon-roll.jpg" id="roll-image" width="400px" alt="Product Image">
+    </div>
+
+    <div class = "details-text">
+        <div class="dropdowns">
+            <p id="details-ps" >Customize our delicious, hand-made cinnamon rolls to your liking!</p>
+            <br>
+            <br>
+            <br>
+            <p id= "details-ps">Glazing: </p>
+            <select name="glazing-menu" id= "glazing-menu" onchange="updatePrice()">
+                <option value="glaze1">Keep original</option>
+                <option value="glaze2">Sugar milk</option>
+                <option value="glaze3">Vanilla milk</option>
+                <option value="glaze4">Double chocolate</option>
+            </select>
+            <p id="details-ps">Pack size: </p>
+            <select name="pack-size-menu" id="pack-size-menu" onchange="updatePrice()">
+                <option value="size1">1</option>
+                <option value="size2">3</option>
+                <option value="size3">6</option>
+                <option value="size4">12</option>
+            </select>
+        </div>
+
+  
+    <div class="detail-box">
+        <div class="detail-button-1">
+            <p id="details-price">$<span id="total-price">2.49</span></p>
+        </div>
+        <div class="detail-button">
+            <div class="button" onclick="cartAdd()" >Add to Cart</div>
+        </div>
+    </div>
+</div>
+</div>
+<script src="script/rollsData.js"></script>
+<script src="script/main.js"></script>
+</body>
+</html>
+
