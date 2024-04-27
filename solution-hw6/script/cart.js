@@ -55,12 +55,7 @@ function removeClick(item) {
 	}
 
     saveCartLocal()
-    /* HW6: save updated cart to local storage
-    const currentCart = JSON.stringify(Array.from(cart));
-    localStorage.clear();
-    localStorage.setItem(currentCart, currentCart);
-    console.log(localStorage.getItem(currentCart));
-    */
+
     document.querySelector('.notification').textContent = cart.length.toString();
 }
 
